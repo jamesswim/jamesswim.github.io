@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Arial', sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
@@ -47,34 +47,54 @@ nav ul li a {
 }
 
 /* 主要內容樣式 */
-main {
+section {
     padding: 20px 0;
-}
-
-.intro, .features {
-    background-color: #fff;
     margin-bottom: 20px;
-    padding: 20px;
+    background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.intro h2, .features h2 {
+section h2 {
     text-align: center;
     color: #333;
 }
 
-.feature {
-    text-align: center;
-    margin-bottom: 20px;
+.about, .skills, .portfolio, .contact {
+    padding: 20px;
 }
 
-.feature h3 {
-    color: #0066cc;
+.about img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    max-width: 150px;
 }
 
-.feature p {
-    color: #666;
+/* 聯絡表單樣式 */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 /* 頁腳樣式 */
