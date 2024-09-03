@@ -64,6 +64,11 @@ section h2 {
     padding: 20px;
 }
 
+.about-content {
+    text-align: center; /* 文字置中 */
+    margin-top: 20px; /* 上邊距，可以根據需要調整 */
+}
+
 .about img {
     display: block;
     margin: 20px auto;
