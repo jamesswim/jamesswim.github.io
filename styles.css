@@ -34,7 +34,7 @@ body {
 
 /* 滑鼠按下時變成擺動狀態 */
 body:active {
-    cursor: url('images/hammer-swing.png'), auto;
+    cursor: url('hammer-swing.png'), auto;
 }
 
 .container {
