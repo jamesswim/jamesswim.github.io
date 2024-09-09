@@ -5,11 +5,31 @@
     box-sizing: border-box;
 }
 
+
+/* 頁眉樣式 */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    text-align: center;
+}
+
+
+/* 主要內容樣式 */
+main {
+    padding: 20px 0;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
+    cursor: url('hammer.png'), auto; /* 地鼠槌子的游標 */
 }
 
 .container {
@@ -18,63 +38,43 @@ body {
     overflow: hidden;
 }
 
-/* 頁眉樣式 */
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
+/* 網格佈局 */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 每行3個方框 */
+    gap: 20px;
+    padding: 40px 0;
 }
 
-header h1 {
+/* 方框樣式 */
+.box {
+    background-color: #f1f1f1;
     text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    transition: transform 0.3s ease;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-nav ul {
-    list-style: none;
-    text-align: center;
-    padding: 0;
+.box:hover {
+    transform: scale(1.1); /* 懸停放大效果 */
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 15px;
-}
-
-nav ul li a {
-    color: #fff;
+.box a {
     text-decoration: none;
-    font-size: 1.1em;
+    color: black;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
 }
 
-/* 主要內容樣式 */
-main {
-    padding: 20px 0;
-}
-
-.intro, .features {
+.features {
     background-color: #fff;
     margin-bottom: 20px;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.intro h2, .features h2 {
-    text-align: center;
-    color: #333;
-}
-
-.feature {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.feature h3 {
-    color: #0066cc;
-}
-
-.feature p {
-    color: #666;
 }
 
 /* 頁腳樣式 */
