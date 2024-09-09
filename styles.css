@@ -32,6 +32,11 @@ body {
     cursor: url('hammer.png'), auto; /* 地鼠槌子的游標 */
 }
 
+/* 滑鼠按下時變成擺動狀態 */
+body:active {
+    cursor: url('images/hammer-swing.png'), auto;
+}
+
 .container {
     width: 80%;
     margin: auto;
@@ -55,6 +60,7 @@ body {
     transition: transform 0.3s ease;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: url('images/hammer.png'), auto;
 }
 
 .box:hover {
@@ -67,6 +73,10 @@ body {
     font-size: 18px;
     display: block;
     padding: 10px;
+}
+
+.box:active {
+    cursor: url('images/hammer-swing.png'), auto;
 }
 
 .features {
