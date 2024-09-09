@@ -49,6 +49,8 @@ body:active {
     grid-template-columns: repeat(3, 1fr); /* 每行3個方框 */
     gap: 20px;
     padding: 40px 0;
+    margin: 0 auto; /* 確保內容居中顯示 */
+    width: 100%; /* 調整寬度以滿版顯示 */
 }
 
 /* 方框樣式 */
@@ -61,6 +63,7 @@ body:active {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     cursor: url('images/hammer.png'), auto;
+    overflow: hidden; /* 確保內容不會溢出 */
 }
 
 .box:hover {
