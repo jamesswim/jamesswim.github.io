@@ -50,7 +50,8 @@ body:active {
     gap: 20px;
     padding: 40px 0;
     margin: 0 auto; /* 確保內容居中顯示 */
-    width: 100%; /* 調整寬度以滿版顯示 */
+    max-width: 1200px; /* 最大寬度 */
+    width: 90%; /* 寬度為90% */
 }
 
 /* 方框樣式 */
