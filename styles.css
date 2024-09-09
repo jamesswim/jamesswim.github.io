@@ -76,7 +76,7 @@ body:active {
 }
 
 .box:active {
-    cursor: url('images/hammer-swing.png'), auto;
+    cursor: url('hammer-swing.png'), auto;
 }
 
 .features {
