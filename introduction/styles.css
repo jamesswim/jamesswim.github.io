@@ -76,28 +76,28 @@ section h2 {
     max-width: 150px;
 }
 
-/* 碩士課程區塊樣式 */
+/* 碩士課程區塊樣式
 #masterCompletedCourses {
     margin: 20px;
     padding: 20px;
     background-color: #e0f7fa;
     border-radius: 8px; /* 保持圓角 */
- } 
+ /* }  */ 
 
 /* 大學課程區塊樣式 */
-#undergraduateCompletedCourses {
+/* #undergraduateCompletedCourses {
     margin: 20px;
     padding: 20px;
     background-color: #fffde7;
     border-radius: 8px; /* 保持圓角 */
-} 
+/* }  */ 
 
 /* 通用課程列表和項目樣式 */
-.course-list {
+/* .course-list {
     list-style-type: none;
     padding: 0;
     background-color: #fff;
-}
+} */
 
 
 /* 聯絡表單樣式 */
