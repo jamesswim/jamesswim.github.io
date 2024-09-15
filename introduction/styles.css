@@ -135,6 +135,10 @@ section h2 {
 .course-item:hover {
     transform: translateY(-5px); /* 懸停效果 */
 }
+
+.courses-section h2 {
+    margin-bottom: 20px; /* 調整這裡的值以增加間距 */
+}
 /* 碩士課程區塊樣式
 #masterCompletedCourses {
     margin: 20px;
