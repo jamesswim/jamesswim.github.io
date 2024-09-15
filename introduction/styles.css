@@ -76,6 +76,33 @@ section h2 {
     max-width: 150px;
 }
 
+/* 專業技能區塊樣式 */
+.skills-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.skills-container {
+    display: flex; /* 使用 Flexbox 進行排列 */
+    flex-wrap: wrap; /* 允許換行 */
+    justify-content: center; /* 居中對齊 */
+    gap: 15px; /* 元素之間的間距 */
+}
+
+.skill-item {
+    background-color: #f0f0f0; /* 背景色 */
+    padding: 10px 20px;
+    border-radius: 20px; /* 圓角 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加陰影 */
+    font-size: 16px;
+    transition: transform 0.3s ease, background-color 0.3s ease; /* 過渡效果 */
+}
+
+.skill-item:hover {
+    background-color: #333; /* 懸停時變更背景色 */
+    color: white; /* 懸停時變更文字顏色 */
+    transform: scale(1.1); /* 懸停時放大 */
+}
 /* 碩士課程區塊樣式
 #masterCompletedCourses {
     margin: 20px;
