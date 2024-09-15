@@ -127,9 +127,13 @@ section h2 {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 添加陰影效果 */
     font-size: 16px;
-    max-width: 300px; /* 控制卡片寬度 */
     text-align: left;
     transition: transform 0.3s ease; /* 過渡效果 */
+    white-space: nowrap; /* 防止自動換行 */
+    word-break: keep-all; /* 保持整個單詞 */
+    overflow-wrap: normal; /* 防止分詞換行 */
+    max-width: fit-content; /* 根據內容自適應寬度 */
+
 }
 
 .course-item:hover {
