@@ -82,6 +82,10 @@ section h2 {
     padding: 20px;
 }
 
+.skills-section h2 {
+    margin-bottom: 20px; /* 調整這裡的值以增加間距 */
+}
+
 .skills-container {
     display: flex; /* 使用 Flexbox 進行排列 */
     flex-wrap: wrap; /* 允許換行 */
