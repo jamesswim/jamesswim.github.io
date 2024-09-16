@@ -186,7 +186,7 @@ section h2 {
 /* Instagram 懸停效果 */
 .social-media-links a:hover .fa-instagram {
     transform: scale(1.2); /* 懸停時放大 */
-    color: #E4405F;
+    color: #f5b1e6;
 }
 
 /* GitHub 懸停效果 */
