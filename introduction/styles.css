@@ -149,7 +149,22 @@ section h2 {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* 自動調整列數 */
     gap: 20px; /* 網格間距 */
-    justify-items: center; /* 水平居中 */
+    padding: 20px;
+}
+
+.undergrad-course-item {
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    text-align: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.undergrad-course-item:hover {
+    transform: scale(1.05);
+    background-color: #d4d4d4;
 }
 
 /* 聯絡表單樣式 */
