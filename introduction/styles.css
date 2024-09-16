@@ -201,6 +201,9 @@ section h2 {
     color: #FF0000;
 }
 
+.social-media-links a:hover .fa-envelope {
+    color: #0072c6; /* 可改為你喜歡的顏色 */
+}
 
 /* 頁腳樣式 */
 footer {
