@@ -143,29 +143,14 @@ section h2 {
 .courses-section h2 {
     margin-bottom: 20px; /* 調整這裡的值以增加間距 */
 }
-/* 碩士課程區塊樣式
-#masterCompletedCourses {
-    margin: 20px;
-    padding: 20px;
-    background-color: #e0f7fa;
-    border-radius: 8px; /* 保持圓角 */
- /* }  */ 
 
-/* 大學課程區塊樣式 */
-/* #undergraduateCompletedCourses {
-    margin: 20px;
-    padding: 20px;
-    background-color: #fffde7;
-    border-radius: 8px; /* 保持圓角 */
-/* }  */ 
-
-/* 通用課程列表和項目樣式 */
-/* .course-list {
-    list-style-type: none;
-    padding: 0;
-    background-color: #fff;
-} */
-
+/* 使用 Grid 佈局排列課程 */
+.courses-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* 自動調整列數 */
+    gap: 20px; /* 網格間距 */
+    justify-items: center; /* 水平居中 */
+}
 
 /* 聯絡表單樣式 */
 form {
