@@ -178,14 +178,27 @@ section h2 {
 }
 
 .social-media-links a {
-    font-size: 40px; /* 調整圖標大小 */
+    font-size: 60px; /* 調整圖標大小 */
     color: #333; /* 設定圖標顏色 */
     transition: transform 0.3s ease, color 0.3s ease; /* 添加懸停效果 */
 }
 
-.social-media-links a:hover {
+/* Instagram 懸停效果 */
+.social-media-links a:hover .fa-instagram {
     transform: scale(1.2); /* 懸停時放大 */
-    color: #555; /* 懸停時改變顏色 */
+    color: #E4405F;
+}
+
+/* GitHub 懸停效果 */
+.social-media-links a:hover .fa-github {
+    transform: scale(1.2); /* 懸停時放大 */
+    color: #333; /* 你可以選擇更亮的顏色或保持不變 */
+}
+
+/* YouTube 懸停效果 */
+.social-media-links a:hover .fa-youtube {
+    transform: scale(1.2); /* 懸停時放大 */
+    color: #FF0000;
 }
 
 
