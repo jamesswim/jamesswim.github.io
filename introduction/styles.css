@@ -202,7 +202,8 @@ section h2 {
 }
 
 .social-media-links a:hover .fa-envelope {
-    color: #0072c6; /* 可改為你喜歡的顏色 */
+    transform: scale(1.2); /* 懸停時放大 */
+    color: #0072c6; 
 }
 
 /* 頁腳樣式 */
