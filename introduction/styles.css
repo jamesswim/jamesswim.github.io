@@ -168,30 +168,32 @@ section h2 {
     background-color: #f69efb;
 }
 
-/* 聯絡表單樣式 */
-form {
+
+/* 社交媒體圖標樣式 */
+.social-media-links {
     display: flex;
-    flex-direction: column;
-    gap: 10px;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
 }
 
-form label {
-    margin-bottom: 5px;
+.social-media-links a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
 }
 
-form input, form textarea {
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
+.social-media-links img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%; /* 圓形圖標 */
+    transition: transform 0.3s ease;
 }
 
-form button {
-    padding: 10px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+/* 懸停效果 */
+.social-media-links a:hover img {
+    transform: scale(1.1); /* 放大效果 */
 }
 
 /* 頁腳樣式 */
