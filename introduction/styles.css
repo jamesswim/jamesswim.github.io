@@ -108,6 +108,48 @@ section h2 {
     transform: scale(1.1); /* 懸停時放大 */
 }
 
+/* 作品集連結樣式 */
+.portfolio-item a {
+    text-decoration: none;
+    color: #5A67D8; /* 初始顏色，可自行調整 */
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.portfolio-item a:hover {
+    color: #2D3748; /* 懸停顏色，可自行調整 */
+}
+
+.portfolio-item {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+}
+
+.portfolio-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* 讓連結看起來像按鈕的效果 */
+.portfolio-item a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #E2E8F0; /* 背景顏色，可自行調整 */
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.portfolio-item a:hover {
+    background-color: #5A67D8; /* 懸停時的背景顏色 */
+    color: #fff; /* 懸停時的字體顏色 */
+}
+
 /* 課程區塊樣式 */
 .courses-section {
     text-align: center;
