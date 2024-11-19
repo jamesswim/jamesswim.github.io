@@ -108,6 +108,29 @@ section h2 {
     transform: scale(1.1); /* 懸停時放大 */
 }
 
+details {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+details summary {
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+details ul {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+details ul li {
+    margin: 5px 0;
+}
+
 /* 作品集連結樣式 */
 .portfolio-item a {
     text-decoration: none;
