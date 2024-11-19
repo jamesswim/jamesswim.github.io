@@ -131,6 +131,27 @@ details ul li {
     margin: 5px 0;
 }
 
+.portfolio-row {
+    display: flex;
+    align-items: center; /* 垂直居中 */
+    gap: 20px; /* 控制項目之間的間距 */
+}
+
+.portfolio-row h3 {
+    margin: 0;
+    flex-shrink: 0; /* 防止文字壓縮 */
+}
+
+.portfolio-row p {
+    margin: 0;
+    flex-grow: 1; /* 讓描述文字占據剩餘空間 */
+    text-align: center;
+}
+
+.portfolio-row details {
+    flex-shrink: 0; /* 防止展開內容擠壓其他元素 */
+}
+
 /* 作品集連結樣式 */
 .portfolio-item a {
     text-decoration: none;
